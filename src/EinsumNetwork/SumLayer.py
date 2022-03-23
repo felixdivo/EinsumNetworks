@@ -1,9 +1,9 @@
 import torch
 import torch.nn.functional as F
-from EinsumNetwork.Layer import Layer
+from .Layer import Layer
 import functools
 from itertools import count
-from utils import sample_matrix_categorical
+from .utils import sample_matrix_categorical
 softmax = torch.nn.functional.softmax
 
 

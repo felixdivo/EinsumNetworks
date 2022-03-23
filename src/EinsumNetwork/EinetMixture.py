@@ -1,7 +1,7 @@
 import torch
 import numpy as np
 from scipy.special import logsumexp
-from EinsumNetwork.EinsumNetwork import log_likelihoods
+from .EinsumNetwork import log_likelihoods
 
 
 class EinetMixture:

@@ -2,7 +2,7 @@ import numpy as np
 import os
 import tempfile
 import urllib.request
-import utils
+from EinsumNetwork import utils
 import shutil
 import gzip
 import subprocess

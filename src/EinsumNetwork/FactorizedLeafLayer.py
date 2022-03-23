@@ -1,5 +1,5 @@
-from EinsumNetwork.Layer import Layer
-from EinsumNetwork.ExponentialFamilyArray import *
+from .Layer import Layer
+from .ExponentialFamilyArray import *
 
 
 class FactorizedLeafLayer(Layer):

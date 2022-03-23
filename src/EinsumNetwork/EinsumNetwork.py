@@ -1,6 +1,6 @@
-from EinsumNetwork import Graph
-from EinsumNetwork.FactorizedLeafLayer import *
-from EinsumNetwork.SumLayer import *
+from . import Graph
+from .FactorizedLeafLayer import *
+from .SumLayer import *
 
 class Args(object):
     """

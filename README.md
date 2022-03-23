@@ -1,4 +1,4 @@
-**The same as the original repo, but can be installable via `pip install git+git://github.com/felixdivo/EinsumNetworks.git`**
+**Pretty much the same as the original repo, but installable via `pip install git+https://github.com/felixdivo/EinsumNetworks.git`**.
 
 # Einsum Networks -- Fast and Scalable Learning of Tractable Probabilistic Circuits
 

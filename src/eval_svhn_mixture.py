@@ -1,11 +1,10 @@
 import numpy as np
 import torch
-from EinsumNetwork import Graph, EinsumNetwork
+from EinsumNetwork import Graph, EinsumNetwork, utils
 from EinsumNetwork.EinetMixture import EinetMixture
 import pickle
 import os
 import datasets
-import utils
 from PIL import Image
 
 

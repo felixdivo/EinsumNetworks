@@ -1,9 +1,8 @@
 import os
 import numpy as np
 import torch
-from EinsumNetwork import Graph, EinsumNetwork
+from EinsumNetwork import Graph, EinsumNetwork, utils
 import datasets
-import utils
 
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 

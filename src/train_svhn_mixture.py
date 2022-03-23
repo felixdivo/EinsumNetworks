@@ -1,10 +1,9 @@
 import numpy as np
 import torch
-from EinsumNetwork import Graph, EinsumNetwork
+from EinsumNetwork import Graph, EinsumNetwork, utils
 import pickle
 import os
 import time
-import utils
 import datasets
 from PIL import Image
 from sklearn.cluster import KMeans
